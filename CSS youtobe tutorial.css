@@ -1,0 +1,104 @@
+body {
+    background-image: url("https://img4.thuthuatphanmem.vn/uploads/2020/07/05/background-cong-nghe_035954192.jpg");
+    font-size: large;
+}
+.Intro {
+    font-size: larger;
+    text-decoration:solid;
+}   
+h3.End {    
+    color: rgb(247, 177, 212);
+    font-size: larger;
+}
+* {
+    color: aliceblue;
+}
+#Welcome {
+    color:rgb(251, 174, 215);
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(251, 174, 215);
+    font-family:cursive ;
+    font-weight:bolder;
+    font-size: 50px;
+}
+.Intro {
+    color:darkseagreen;
+}
+.ggmap {
+    margin-left: 60%;
+}   
+.sendme {
+    color: black;
+}
+table, th,td {
+    border: 4px solid rgb(0, 225, 255);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+
+
+.me {
+    color: black;
+    background-color: rgb(190, 232, 232);
+    height: fit-content;
+    width: fit-content;
+    outline-offset: 20px;
+    border-radius: 20px;
+}
+
+.ig {
+    width: 60px;
+    height: 60px;
+}
+
+.ig-a {
+    text-decoration: none;
+}
+.input {
+    margin-left: 20px;
+}
+
+.dropbutton {
+    padding: 10px;
+    color:aliceblue;
+    background-color: rgb(58, 57, 57);
+    font-size: 16px;
+    position: relative;
+    margin-left: 90%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropmenu {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 150px;
+    margin-left: 1353px;
+
+}
+
+.dropmenu a {
+    padding: 10px;
+    font-size: auto;
+}
+.dropmenu a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropmenu a:hover {
+    background-color: white;
+}
+
+.menu:hover  .dropmenu {
+    display: block;
+}
+
+.menu:hover .dropbutton{
+    background-color: rgb(93, 170, 170);
+}
